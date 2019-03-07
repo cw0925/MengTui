@@ -109,7 +109,7 @@ const TitleStyle = StyleSheet.create({
    },
    titleBarContent: {
        flexDirection: 'row',   
-       height: titleHeight,
+       // height: titleHeight,
        alignItems: 'center',   
        width: width,
        justifyContent: 'space-between',
@@ -117,7 +117,7 @@ const TitleStyle = StyleSheet.create({
    },
    titleBarSearchContent: {
        flexDirection: 'row',   
-       height: titleHeight,
+       // height: titleHeight,
        alignItems: 'center',   
        width: width,
        height: titleHeight - statusBarHeight,
