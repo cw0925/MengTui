@@ -204,7 +204,7 @@ const TitleStyle = StyleSheet.create({
 
    rightText: {
        fontSize: unitWidth * 30,
-       color: "white",
+       color: "black",
        alignItems: 'center',
        justifyContent: 'center'
    },

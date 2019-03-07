@@ -19,13 +19,15 @@ export const unitHeight = height / designHeight
 export const statusBarHeight = getStatusBarHeight();
 export const safeAreaViewHeight = isIphoneXSeries() ? 34 : 0
 //标题栏的高度
-export const titleHeight = unitWidth * 100 + statusBarHeight;
+export const titleHeight = unitWidth * 80 + statusBarHeight;
 
 //字体缩放比例，一般情况下不用考虑。
 // 当应用中的字体需要根据手机设置中字体大小改变的话需要用到缩放比例
 export const fontscale = PixelRatio.getFontScale()
 
 export const wxAPPID = 'wxbab73739a1ea4394'
+
+export const themeColor = '#f4f4f4'
 
 //iphoneX 序列机型的屏幕高宽
 //XSM SCREEN_HEIGHTL = 896.000000,SCREEN_WIDTHL = 414.000000  2.1642512077

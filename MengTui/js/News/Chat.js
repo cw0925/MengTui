@@ -12,12 +12,12 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 import TitleBar from '../Components/TitleBar'
 
-export default class ShopCar extends Component<Props> {
+export default class Chat extends Component<Props> {
   render() {
     const {navigation} = this.props;
     return (
       <View style={styles.container}>
-        <TitleBar title={"购物车"}  hideLeftArrow={true} navigation={navigation} right={'编辑'}/>
+        <TitleBar title={"消息列表"} navigation={navigation}/>
       </View>
     );
   }

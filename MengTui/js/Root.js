@@ -2,6 +2,7 @@ import {createAppContainer,createStackNavigator,StackViewTransitionConfigs} from
 
 import Tabbar from './Tabbar/Tabbar'
 import Login from './Login/Login'
+import Chat from './News/Chat'
 
 // 数组中的路由，可以自定义动画效果，这里我只改了登录
 const IOS_MODAL_ROUTES = ['login'];
@@ -31,6 +32,12 @@ const navigator = createStackNavigator({
     	navigationOptions: {
         	header: null, 
     	}
+    },
+    chat:{
+      screen:Chat,
+      navigationOptions: {
+          header: null, 
+      }
     }
 },{
 	initialRouteName: 'tabbar', 
