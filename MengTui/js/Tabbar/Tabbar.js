@@ -32,14 +32,7 @@ const MainStack = createBottomTabNavigator({
         }
     },
     news:{
-        screen:createStackNavigator({
-                news:{
-                  screen:NewsScreen,
-                  navigationOptions: {
-                    title:"聊天" , 
-                }
-          },
-        }),
+        screen:NewsScreen,
         navigationOptions:{
             tabBarLabel: "消息",
             tabBarIcon:({focused})=>{
@@ -60,14 +53,7 @@ const MainStack = createBottomTabNavigator({
         }
     },
     coincenter:{
-        screen:createStackNavigator({
-                coincenter:{
-                  screen:CoinCenterScreen,
-                  navigationOptions: {
-                    title:"推币中心" , 
-                }
-          },
-        }),
+        screen:CoinCenterScreen,
         navigationOptions:{
             tabBarLabel: "推币中心",
             tabBarIcon:({focused})=>{
@@ -88,14 +74,7 @@ const MainStack = createBottomTabNavigator({
         }
     },
     shopcar:{
-        screen:createStackNavigator({
-                shopcar:{
-                  screen:ShopCarScreen,
-                  navigationOptions: {
-                    title:"购物车" , 
-                }
-          },
-        }),
+        screen:ShopCarScreen,
         navigationOptions:{
             tabBarLabel: "购物车",
             tabBarIcon:({focused})=>{

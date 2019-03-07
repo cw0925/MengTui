@@ -10,12 +10,14 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
+import TitleBar from '../Components/TitleBar'
+
 export default class News extends Component<Props> {
   render() {
-    
+    const {navigation} = this.props;
     return (
       <View style={styles.container}>
-        
+        <TitleBar title={"聊天"}  hideLeftArrow={true} navigation={navigation}/>
       </View>
     );
   }

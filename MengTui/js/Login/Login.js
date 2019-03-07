@@ -8,7 +8,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View,Image,TouchableOpacity} from 'react-native';
+import {Platform, StyleSheet, Text, View,Image,TouchableOpacity,Alert} from 'react-native';
 
 import * as AdapterUtil from '../Util/AdapterUtil'
 import ImageButton from '../Components/ImageButton'
